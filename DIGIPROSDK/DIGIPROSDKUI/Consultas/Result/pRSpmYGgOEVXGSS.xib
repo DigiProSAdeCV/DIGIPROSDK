@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="OIQ-gs-BMs" customClass="ResultadosConsultasDataCell" customModule="DIGIPROSDKUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OIQ-gs-BMs" id="hNa-JM-Lq5">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w62-EN-iBk">
+                        <rect key="frame" x="10" y="0.0" width="355" height="34"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="wq2-mk-4TJ"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="w62-EN-iBk" firstAttribute="width" secondItem="hNa-JM-Lq5" secondAttribute="width" constant="-20" id="LbU-FL-HtU"/>
+                    <constraint firstItem="w62-EN-iBk" firstAttribute="top" secondItem="hNa-JM-Lq5" secondAttribute="top" id="Rjh-5C-zOO"/>
+                    <constraint firstItem="w62-EN-iBk" firstAttribute="height" secondItem="hNa-JM-Lq5" secondAttribute="height" constant="-10" id="Yfl-0A-knY"/>
+                    <constraint firstItem="w62-EN-iBk" firstAttribute="leading" secondItem="hNa-JM-Lq5" secondAttribute="leading" constant="10" id="jQZ-9y-W8K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="innerVw" destination="w62-EN-iBk" id="Y0l-lr-JFt"/>
+            </connections>
+            <point key="canvasLocation" x="-206" y="14"/>
+        </tableViewCell>
+    </objects>
+</document>

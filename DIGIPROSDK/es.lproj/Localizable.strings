@@ -1,0 +1,525 @@
+/*
+  Localizable.strings
+  DIGIPROSDK
+
+  Created by Jonathan Viloria M on 16/01/20.
+  Copyright © 2020 Jonathan Viloria M. All rights reserved.
+ 
+  How to use
+   Composition of the localization variables
+  
+     1 - Module from where it belongs
+     2 - Kind of element
+     3 - Name of the element or reference for the element
+   
+     Note - All Words are separete by Underline "_"
+*/
+// MARK: Debug debug
+"debug_sect_sales" = "Ventas";
+"debug_sect_imp" = "Implantación";
+"debug_sect_gen" = "Genérico";
+"debug_lbl_title" = "Accesos";
+"debug_lbl_user" = "Seleccione un usuario";
+
+// MARK: SplashLogin spls
+"spls_lbl_copyrightP" = "©Copyright PROLOGISTIK Todos los derechos reservados.";
+"spls_lbl_copyright" = "©Copyright DIGIPRO Todos los derechos reservados.";
+"spls_lbl_version" = "versión %@.%@";
+"spls_lbl_title" = "Somos DIGIPRO";
+"spls_lbl_subtitle" = "La empresa generadora de tecnología para las necesidades del futuro.";
+
+"spls_log_nocode" = "\r\nNo hay códigos guardados, inicializando aplicación en blanco.";
+"spls_log_code" = "\r\nSe encontraron datos de códigos.";
+"spls_log_skin" = "\r\nImplementando skin del código.";
+"spls_log_user" = "\r\nVerificando si existe un usuario.";
+"spls_log_templates" = "\r\nVerificando plantillas del usuario.";
+"spls_log_variables" = "\r\nVerificando variables del usuario.";
+"spls_log_methods" = "\r\nCreando las variables y métodos necesarios.";
+"spls_log_welcome" = "\r\nApp inicializada con éxito.\r\nEnviando a la vista de inicio.\r\n¡BIENVENIDO!";
+
+// MARK: SplashLogin Internal Log log_spls
+"log_spls_init" = "Inicialización de la aplicación.\r\n";
+
+// MARK: CodeLogin cd
+"cd_lbl_titleP" = "Prologistik";
+"cd_lbl_title" = "Formularios Electrónicos";
+"cd_lbl_subtitle" = "Escriba el código de acceso proporcionado por su proveedor.";
+"cd_lbl_code" = "Ingresar código";
+"cd_input_code" = "Código";
+"cd_input_code_holder" = "Código";
+"cd_btn_verify" = "Verificar";
+"cd_lbl_info" = "Información adicional,\r\n¡Conócenos!";
+"cd_btn_info" = "Conoce más";
+"cd_btn_more" = "Conoce más sobre nosotros";
+
+// MARK: UserLogin usr
+"usr_lbl_title" = "¡Bienvenido!";
+"usr_lbl_user" = "Usuario";
+"usr_lbl_pass" = "Contraseña";
+"usr_lbl_user_holder" = "José";
+"usr_lbl_pass_holder" = "********";
+"usr_elec_forms" = "Formularios Electrónicos";
+"usr_txt_intro" = "Ingrese sus credenciales para acceder.";
+"usr_mail_body" = "<p>¡Hola equipo Digipro!, </p>";
+"usr_lbl_pass_hide" = "Ocultar";
+"usr_lbl_pass_show" = "Mostrar";
+"usr_btn_login" = "Entrar";
+"usr_btn_forgot" = "¿Se te olvidó tu contraseña?";
+"usr_btn_contact" = "Contacta a tu proveedor";
+"usr_btn_register" = "Registrar";
+"usr_lbl_titleEdit" = "Perfil de %@";
+
+// MARK: - Recover Password repass
+"repass_lbl_title" = "¿Olvidaste tu contraseña?";
+"repass_txt_description" = "Ingresa tu cuenta.";
+"repass_lbl_address" = "Cuenta:";
+"repass_btn_next" = "Siguiente";
+"repass_input_address" = "";
+
+// MARK: - MoreInfo mrinfo
+"mrinfo_lbl_title" = "Conoce más sobre nosotros";
+"mrinfo_txt_des" = "¿Quieres saber más sobre DIGIPRO o necesitas ayuda?, contáctanos.";
+"mrinfo_lbl_video" = "Conoce más sobre nosotros, mira aqui nuestro video informativo.";
+"mrinfo_lbl_call" = "Llámanos por teléfono hoy mismo, ¡estamos para ayudarte!";
+"mrinfo_lbl_mail" = "Envíanos un correo electrónico y te responderemos lo antes posible.";
+"mrinfo_lbl_web" = "Visita nuestro sitio web si quieres conocer más sobre nuestros servicios.";
+
+// MARK: - Under construction uncnst
+"uncnst_lbl_title" = "Funcionalidad no disponible";
+
+// MARK: - Reset Password rstpass
+"rstpass_lbl_title" = "Restablece tu contraseña";
+"rstpass_txt_des" = "Crea una contraseña que sea fácil de recordar para ti.";
+"rstpass_lbl_pass" = "Nueva contraseña";
+"rstpass_lbl_passC" = "Confirmar contraseña";
+"rstpass_lbl_note" = "La contraseña debe ser alfanumérica incluyendo caracteres especiales y una mayúscula, la cual debe tener minimo 8 caracteres.";
+
+// MARK: - Registration regs
+"regs_lbl_title" = "Regístrate";
+"regs_lbl_des" = "¡Hola! Por favor ingresa tus datos para poder crear una cuenta.";
+"regs_lbl_name" = "Nombre (s)";
+"regs_input_name" = "James";
+"regs_btn_google" = "Google";
+"regs_btn_facebook" = "Facebook";
+"regs_lbl_social" = "O registrate con:";
+
+// MARK: - Lastname lstn
+"lstn_hi" = "Hola %@";
+"lstn_lbl_des" = "Ahora captura tus apellidos para poder continuar con el registro.";
+"lstn_lbl_father" = "Apellido Paterno:";
+"lstn_lbl_mother" = "Apellido Materno:";
+"lstn_input_father" = "Hernández";
+"lstn_input_mother" = "González";
+
+// MARK: - Infoadicional infad
+"infad_lbl_title" = "Información Adicional";
+"infad_txt_des" = "Ahora captura tu número de celular y correo electrónico para validar tu cuenta.";
+"infad_lbl_cell" = "Número de celular:";
+"infad_lbl_mail" = "Correo Electrónico:";
+"infad_input_cell" = "55 1234 5678";
+"infad_lbl_address" = "Dirección y numero";
+"infad_lbl_delMun" = "Delegación y/o Municipio";
+"infad_lbl_col" = "Colonia";
+"infad_lbl_state" = "Estado";
+"infad_blb_country" = "País";
+"infad_lbl_cp" = "Código Postal";
+"infad_input_address" = "Av. Lima 409";
+"infad_input_delMun" = "Benito Juarez";
+"infad_input_col" = "La Mora";
+"infad_input_state" = "Estado de México";
+"infad_input_country" = "México";
+"infad_input_cp" = "01100";
+
+// MARK: - Password passw
+"passw_lbl_title" = "Seguridad";
+"passw_txt_des" = "Ya casi terminamos, ahora sólo captura la que será tu contraseña.";
+"passw_lbl_pass" = "Contraseña:";
+"passw_lbl_passC" = "Confirmar Contraseña:";
+"passw_btn_register" = "Registrar Cuenta";
+
+// MARK: - Validation valton
+"valton_lbl_title" = "Validación";
+"valton_lbl_subtitle" = "Ya sólo necesitas ingresar el código que recibiste vía SMS para validar tu cuenta.";
+"valton_btn_send" = "Enviar Código";
+"valton_btn_sms" = "Reenviar SMS";
+"valton_btn_mail" = "Reenviar email";
+"valton_lbl_note" = "El proceso de recepción de SMS puede tardar un poco te pedimos no salir de esta pantalla por favor y en caso de que no te llegue el mensaje da click en el botón de Reenviar SMS";
+"valton_btn_login" = "Login";
+"valton_lbl_verification" = "Código de verificación";
+"valton_btn_reset" = "Borrar Registro";
+"valton_input_code" = "123456";
+
+// MARK: ChangePassword chngpass
+"chngpass_lbl_title" = "Cambiar contraseña";
+"chngpass_txt_des" = "Crea una contraseña que sea fácil de recordar para ti.";
+"chngpass_lbl_current" = "Contraseña actual";
+"chngpass_lbl_new" = "Contraseña nueva";
+"chngpass_lbl_confirm" = "Confirmar contraseña";
+"chngpass_btn_save" = "Guardar cambios";
+
+// MARK: Version vrsn
+"vrsn_lbl_title" = "Historial de versiones";
+"vrsn_txt_notext" = "El archivo no contiene información.";
+
+// MARK: Contact cntct
+"cntct_lbl_title" = "Contacto";
+"cntct_lbl_address" = "DIRECCIÓN:";
+"cntct_txt_address" = "Montes Urales No. 424, piso 2 Suites 02B-129,02C-133 y 02C-134 Lomas de Chapultepec V sección Miguel Hidalgo, CDMX, CP. 11000";
+"cntct_lbl_cell" = "Teléfono";
+"cntct_btn_call" = "Llamar";
+"cntct_lbl_mail" = "Correo electrónico";
+"cntct_btn_mail" = "Enviar Correo";
+"cntct_lbl_social" = "Redes Sociales:";
+"cntct_btn_facebook" = "   Facebook";
+"cntct_btn_linkedin" = "   Linkedin";
+
+// MARK: - Menu menu
+"menu_btn_chngpass" = "Cambiar contraseña";
+"menu_btn_update" = "  Historial Versiones";
+"menu_btn_bugs" = "  Histórico de Bugs";
+"menu_btn_geo" = "  Log Geolocalización";
+"menu_btn_contact" = "  Contacto";
+"menu_btn_about" = "  Acerca de...";
+"menu_btn_calc" = "  Calculadora";
+"menu_btn_close" = "  Cerrar sesión";
+"menu_btn_changeImg" = "Cambiar";
+
+// MARK: Bugs bugs
+"bugs_lbl_title" = "Errores y Logs";
+"bugs_lbl_title_geo" = "Logs de Geolocalización";
+"bugs_seg_log" = "ACTIVIDAD";
+"bugs_seg_error" = "ERRORES";
+"bugs_btn_send" = "ENVIAR LOGS";
+"bugs_mail_title" = "Errores app Digipro";
+"bugs_mail_subject" = "Hola, he encontrado estos errores en mi aplicación.";
+
+// MARK: ONBOARDING First onbfst
+"onbfst_lbl_title" = "Novedades";
+"onbfst_lbl_info" = "Conoce las novedades tecnológicas y de usabilidad de la plataforma.";
+"onbfst_btn_next" = "Siguiente";
+"onbfst_tbl_one" = "Nueva interfaz en iPhone y iPad más clara e intuitiva";
+"onbfst_tbl_two" = "Nuevo diseño, una renovada versión";
+"onbfst_tbl_three" = "Registro por Facebook y Google, ahora más fácil";
+"onbfst_tbl_four" = "Explora las nuevas funcionalidades de la plataforma";
+
+"onbscnd_lbl_title" = "Notificaciones Push";
+"onbscnd_lbl_info" = "Obtén notificaciones de tus formatos y entérate paso a paso el proceso de estos.";
+"onbscnd_lbl_activate" = "¿Deseas activar esta opción ahora?";
+"onbscnd_lbl_activate_des" = "Para activar esta opción tienes que entrar a los ajustes de la aplicación.";
+"onbscnd_lbl_desactivate" = "¿Deseas desactivar esta opción ahora?";
+"onbscnd_lbl_desactivate_des" = "Para desactivar esta opción tienes que entrar a los ajustes de la aplicación.";
+"onbscnd_lbl_notification" = "Habilita la opción para tener al día tu información";
+
+"onbthrd_lbl_title" = "Accesos rápidos";
+"onbthrd_lbl_info" = "Nueva funcionalidad de \"Nuevo FE\" para poder crear un formato electrónico más sencillo.";
+
+"onbfrth_lbl_title" = "Widgets";
+"onbfrth_lbl_info" = "Obtén funcionalidades de la app con la calculadora de crédito y las consultas.";
+"onbfrth_lbl_calc" = "Usa la calculadora para simular un crédito e iniciar tu formato";
+"onbfrth_lbl_consult" = "También usa el acceso a las consultas para tener siempre tu información disponible sin necesidad de acceder a la App";
+
+"onbfve_lbl_title" = "Información de permisos";
+"onbfve_lbl_info" = "Para obtener un mejor funcionamiento es necesario autorizar los permisos que se te pedirán cuando uses las herramientas.";
+"onbfve_lbl_camera" = "Acceder a cámara";
+"onbfve_lbl_mic" = "Acceder a micrófono";
+"onbfve_lbl_loc" = "Acceder a localización";
+"onbfve_lbl_gal" = "Acceder a Galería";
+
+"onbsix_lbl_title" = "Touch ID";
+"onbsix_lbl_info" = "Es el nuevo sistema que hemos implementado en nuestra aplicación";
+"onbsix_lbl_touch" = "Deberás habilitar la opción para tener el sistema de reconocimiento de huellas dactilares";
+"onbsix_lbl_activate" = "¿Deseas activar esta opción ahora?";
+"onbsix_lbl_touchid" = "Autenticación con Touch ID, por favor pon tu dedo en el lector del iPhone.";
+"onbsix_lbl_idCorrect" = "Autenticación de Touch ID correcta";
+"onbsix_lbl_idIncorrect" = "Autenticación de Touch ID incorrecta";
+"onbsix_lbl_touchUnavailable" = "Touch ID no disponible en el dispositivo";
+"onbsix_success" = "Se activo la opción de autenticación por Touch ID.";
+"onbsix_fail" = "Se desactivo la opción de autenticación por Touch ID.";
+
+// MARK: DataViewController datavw
+"datavw_local_flow" = "GUARDADOS";
+"datavw_table_title" = "Bienvenido %@";
+"datavw_table_subtitle" = "Selecciona un Flujo y un Proceso para visualizar tus formularios";
+"nodatavw_table_title" = "Bienvenido %@";
+"nodatavw_table_subtitle" = "No hay información disponible";
+"datavw_table_title_s" = "Búsqueda";
+"datavw_table_subtitle_s" = "No se encontró ningún formato con la siguiente nomenclatura: %@";
+"datavw_btn_new" = "Nuevo Formato";
+"datavw_btn_flow" = "Flujos ▾";
+"datavw_btn_consult" = "Consultas";
+"datavw_lbl_flow" = "Flujo seleccionado";
+"datavw_card_lblstatus" = "Por enviar al servidor";
+
+// MARK: UbicacionForm ubcvw
+"ubcvw_lbl_title" = "Mapa de ubicaciones";
+
+// MARK: Custom Alert ctmalrt
+"ctmalrt_lbl_title" = "¿Estas seguro de salir?";
+"ctmalrt_lbl_message" = "No se guardará ningún cambio";
+"ctmalrt_btn_ok" = "SÍ, SALIR";
+"ctmalrt_btn_cancel" = "CANCELAR";
+
+// MARK: Custom Alert ctmalrt EC
+"ctmalrt_lbl_title_EC" = "¿Estas seguro de salir?";
+"ctmalrt_lbl_message_EC" = "¿Desea guardar los cambios realizados?";
+"ctmalrt_btn_ok_EC" = "SÍ";
+"ctmalrt_btn_cancel_EC" = "NO";
+
+// MARK: Consultas View cnslvw
+"cnslvw_lbl_title" = "Consultas";
+"cnslvw_lbl_search" = "Buscar resultados";
+"cnslvw_lbl_title_form" = "Formulario Consulta";
+"cnslvw_lbl_title_detail" = "Detalle de la Cosulta";
+"cnslvw_btn_pagination" = "Paginación";
+"cnslvw_btn_pagination_by" = "Pag. x %@";
+"cnslvw_btn_filter" = "Filtro";
+"cnslvw_btn_filter_by" = "Filtro por: %@";
+"cnslvw_lbl_counter" = "No. %@ de %@";
+
+// MARK: Notifications View ntfsvw
+"ntfsvw_lbl_title" = "Notificaciones";
+"ntfsvw_lbl_formats" = "Tienes %@ formatos por enviar \n";
+
+// MARK: FlujoView fljvw
+"fljvw_lbl_title" = "Flujos disponibles";
+"fljvw_lbl_subtitle" = "Formatos disponibles: %@";
+"fljvw_btn_update" = "    Actualizar";
+
+//MARK: NuevoView nvovw
+"nvovw_lbl_title" = "Nuevo Formato Electrónico";
+
+//MARK: NuevaPlantilla nvapla
+"nvapla_static" = "Contenido Estático";
+"nvapla_permissions_loc" = "Por favor habilite los servicios de localización para continuar usando la aplicación";
+"nvapla_catalog_nodata" = "No hay datos del catálogo.";
+"nvapla_nfc_warning" = "NFC: es necesario actualizar la versión a iOS 13 o superior";
+"nvapla_autosaved_off" = "Autoguardado: OFF";
+"nvapla_autosaved_on" = "Autoguardado: ON";
+
+//MARK: Rules rules
+"rules_required" = "Campo requerido";
+"rules_select" = "Seleccione una opción";
+"rules_min_row" = "El campo debe contener al menos %@ fila(s).";
+"rules_min_char" = "El campo debe contener al menos %@ caracteres";
+"rules_max_char" = "El campo debe contener máximo %@ caracteres";
+"rules_exact_char" = "El campo debe contener exactamente %@ caracteres";
+"rules_range" = "El campo debe estar entre el rango de: %@-%@";
+"rules_maxnumber" = "El número excede la capacidad para un número.";
+"rules_value" = "El campo no cumple la expresión: %@";
+
+//MARK: Elements elemts
+"elemts_list_default" = "--Seleccione--";
+"elemts_combo_nodata" = "No hay datos que mostrar";
+"elemts_btn_max" = "Número máximo de clicks alcanzado";
+"elemts_range" = "Seleccione un rango";
+"elemts_radio" = "Favor de seleccionar el total de las opciones requeridas";
+"elemts_radio_range" = "Favor de seleccionar el rango minimo de opciones";
+"elemts_slider_value" = "Valor: %@";
+"elemts_slider_interval" = "Intervalo: %@";
+"elemts_table_total" = "Totales";
+"elemts_table_rowmax" = "Número máximo de filas alcanzado";
+"elemts_attch_replace" = "El anexo puede ser reemplazado.";
+"elemts_attch_noreplace" = "El anexo no puede ser reemplazado.";
+"elemts_attch_server" = "No se pudo cargar el anexo Local, favor de descargarlo.";
+"elemts_attch_recover" = "Anexo recuperado exitosamente";
+"elemts_attch_error" = "Error, no se encontró el archivo o no tienes permisos";
+"elemts_doc_maxtyp" = "Número máximo por tipificación de %@ son: %@";
+"elemts_doc_max" = "Sólo se permiten cargar %@ documentos";
+"elemts_doc_min" = "Número mínimo de documentos son: %@";
+"elemts_doc_ext" = "Extensión: %@";
+"elemts_doc_maxtyp_allow" = "Tipificación permitida Max: %@";
+"elemts_qr_btn" = " Escanear";
+"elemts_qr_btngen" = " Generar";
+"elemts_face_validate" = "Validado";
+"elemts_face_up" = "El dispositivo necesita estar vertical.";
+"elemts_lefthand" = "RESULTADO MANO IZQUIERDA";
+"elemts_righthand" = "RESULTADO MANO DERECHA";
+"elemts_finger_sdk" = "The SDK license is invalid";
+"elemts_finger_config" = "No hay huellas pre-configuradas a registrar.";
+"elemts_finger_ipad" = "Los dispositivos iPad no son soportados.";
+"elemts_finger_token" = "No. de Huellas tomadas: %@.";
+"elemts_finger_score" = "Se requiere un SCORE mínimo por huella de: %@";
+"elemts_finger_prom" = "Promedio de calificación: %@ . \n No. de Huellas tomadas: %@";
+"elemts_meta_select" = "Tipo de documento";
+"elemts_meta_write" = "Describa los meta atributos del documento";
+
+//MARK: Terms View trms
+"trms_lbl_title" = "Acepto los Términos y Condiciones mencionados, para el uso de esta aplicación.";
+"trms_lbl_titleView" = "Términos y Condiciones";
+
+// MARK: - GENERAL ALERT MESSAGES Title
+"alrt_ok" = "Ok";
+"alrt_accept" = "Aceptar";
+"alrt_error" = "Error";
+"alrt_dgp" = "DIGIPRO";
+"alrt_info" = "Información";
+"alrt_call" = "Llamar";
+"alrt_save" = "Guardar";
+"alrt_warning" = "Advertencia";
+"alrt_settings" = "Ajustes";
+"alrt_mail" = "Enviar Correo";
+"alrt_cancel" = "Cancelar";
+"alrt_invalid_mail" = "Correo inválido";
+"alrt_regex_pass" = "Seguridad";
+"alrt_name" = "Nombre inválido";
+"alrt_google_login" = "\"Digipro App\" quiere utilizar \"google.com\" para iniciar sesión";
+"alrt_invalid_lastname" = "Apellidos inválidos";
+"alrt_register_valid" = "Registro exitoso";
+"alrt_invalid_number" = "Número inválido";
+"alrt_sync_init" = "Sincronización Inicial";
+"alrt_consult" = "Consultas";
+"alrt_service" = "Servicio";
+"alrt_allow" = "Permitir";
+"alrt_continue" = "Continuar";
+"alrt_select_doc" = "Selecciona una opción";
+"alrt_select_doc_library" = "Biblioteca";
+"alrt_select_doc_files" = "Archivos";
+"marcdoc_animation" = "¿Cómo usar el componente Listado de Documentos?";
+"firmfad_animation" = "¿Cómo usar el componente FAD?";
+
+// MARK: - GENERAL ALERT MESSAGES Description
+"alrt_contact_des" = "Selecciona una opción";
+"alrt_invalid_mailUsr" = "El usuario o correo es inválido";
+"alrt_invalid_mail_des" = "El correo que ingresaste no es válido.";
+"alrt_no_mail" = "Funcionalidad no disponible por el momento.";
+"alrt_regex_pass_des" = "La contraseña debe ser Alfanumérica incluyendo un caracter especial y una mayúscula, la cuál debe contener como minimo 8 caracteres.";
+"alrt_pass_no_match" = "La contraseña que ingresaste no coincide.";
+"alrt_reset_pass_success" = "La contraseña se ha actualizado correctamente.";
+"alrt_reset_pass_fail" = "Ocurrio un error al actualizar la contraseña, intenta más tarde.";
+"alrt_mismatch_pass" = "La contraseña anterior que ingresaste no corresponde con nuestros registros.";
+"alrt_name_des" = "El nombre que ingresaste no es válido.";
+"alrt_login_registration" = "Ocurrió un error, por favor vuelve a intentar.\nGracias.";
+"alrt_google_login_des" = "Esto le permite a la app y al sitio compartir información acerca de ti.";
+"alrt_invalid_lastname_des" = "Los apellidos que ingresaste no son válidos.";
+"alrt_register_valid_des" = "Ya casi terminamos, ahora solo tenemos que validar la cuenta vía SMS y Correo Electrónico.";
+"alrt_already_registered" = "Usuario ya registrado con ese correo/nombre";
+"alrt_error_internet" = "Revisa tu conexión a internet";
+"alrt_sms_resend" = "El código SMS ha sido reenviado";
+"alrt_sms_smsagain" = "No se envió el SMS intenta de nuevo";
+"alrt_account_registered" = "La cuenta registrada ha sido validada y activada.";
+"alrt_account_failed" = "Cuenta no registrada intente de nuevo.";
+"alrt_smscode_invalid" = "Código inválido.";
+"alrt_invalid_number_des" = "El número que introdujiste no es válido.";
+"alrt_sync_init_des" = "Se perderan los cambios no guardados.";
+"alrt_localization_des" = "Rastreo de localización activado";
+"alrt_delete_form" = "¿Estás seguro de eliminar el formulario?";
+"alrt_save_form" = "¿Estás seguro de salvar el formulario?";
+"alrt_consult_des" = "No hay resultados diponibles.";
+"alrt_saving" = "¿Deseas guardar los cambios?";
+"alrt_form_validation" = "Aún faltan campos requeridos";
+"alrt_camerause" = "El acceso a la camara es requerido para hacer uso de este módulo.";
+"alrt_nfc" = "El dispositivo no soporta escaneo NFC";
+"alrt_nfc_reader" = "Coloca tu tarjeta-NFC en la parte posterior-superior del iPhone";
+"alrt_error_try" = "Error. Por favor intente de nuevo.";
+"alrt_file_device" = "%@. El archivo se encuentra en el dispositivo.";
+"alrt_file_download" = "No se encontró el documento solicitado";
+"alrt_delete_push" = "¿Deseas eliminar la Notificación?";
+
+// MARK: - GENERAL HUD ALERT MESSAGE
+"hud_validation" = "Validando";
+"hud_sms" = "Enviando SMS";
+"hud_sms_resend" = "Reenviando SMS";
+"hud_mail_resend" = "Reenviando Correo";
+"hud_flow" = "Ordenando";
+"hud_init" = "Inicializando";
+"hud_update" = "Actualizando";
+"hud_loading" = "Cargando";
+"hud_downloading" = "Descargando";
+"hud_service" = "Ejecutando Servicio";
+"hud_pdf_preview" = "Ejecutando Visualización";
+"hud_pdf_download" = "Ejecutando Descarga";
+"hud_new_form" = "Abriendo nueva plantilla";
+"hud_save" = "Guardando";
+"hud_send" = "Enviando";
+"hud_delete" = "Borrando";
+"hud_success" = "Éxito";
+"hud_progress" = "%@ completado.";
+
+// MARK: - GENERAL NOT MESSAGES Title
+"not_welcome" = "Bienvenido";
+"not_templates" = "Ayuda:";
+
+// MARK: - GENERAL NOT MESSAGES Description
+"not_welcome_des" = "Acceso permitido";
+"not_skin_des" = "El diseño no ha sido descargada.";
+"not_error_internet" = "Favor de conectarse a internet para acceder.";
+"not_error_user" = "Credenciales inválidas";
+"not_delete_format" = "Formato borrado exitosamente";
+"not_delete_format_server" = "El formato ya no se encuentra en el servidor y se ha borrado del dispositivo.";
+"not_attach_downloaded" = "Los anexos ya han sido descargados";
+"not_form_reserved" = "Formato reservado";
+"not_form_notreserved" = "El formato no puede ser reservado.";
+"not_form_free" = "Formato liberado";
+"not_form_notfree" = "El formato no puede ser liberado.";
+"not_templates_des" = "No hay plantillas disponibles";
+"not_form_fill" = "Favor de llenar los campos faltantes.";
+"not_component" = "Componente ejecutado exitosamente.";
+"not_document" = "Documento Validado";
+"not_curp_empty" = "El CURP no puede estar vacío";
+"not_curp_fail" = "La CURP no cumple con el formato correcto";
+"not_typo_fail" = "La tipificación no es válida.";
+"not_curp_required" = "El campo %@ es requerido para la validación.";
+"not_curp_ok" = "Validación de CURP correcta";
+"not_curp_error" = "Validación de CURP Incorrecta";
+"not_hash" = "El hash de la firma se generó correctamente.";
+"not_check_fields" = "Revise los campos en rojo";
+"not_transit_error" = "No se puede transitar el formato";
+"not_transit_error_rules" = "Hubo una regla al salvar que ha impedido el salvado. Verifique su información.";
+"not_noprefill" = "No hay prellenado existente";
+"not_form_noelements" = "El formato no contiene elementos.";
+"not_form_nopages" = "El formato no contiene páginas visibles.";
+"not_form_norules" = "El formato no contiene fórmulas o reglas.";
+"not_form_nomorerules" = "El formato no contiene más fórmulas o reglas.";
+"not_wizard_tableerror" = "El componente Wizard no contiene una plantilla a transitar";
+"not_credentials" = "Favor de ingresar sus credenciales.";
+"not_user_app" = "El Usuario no se encuentra guardado en la app.";
+"not_user_invalidregister" = "Registro inválido";
+"not_user_userexist" = "Usuario ya existe";
+"not_user_chngpassinvalid" = "No se pudo cambiar la contraseña";
+"not_user_resetpass" = "La contraseña temporal se envió al correo electrónico del usuario registrado, úsela para iniciar sesión";
+"not_user_invalid" = "Usuario inválido";
+"not_terms_invalid" = "Términos y Condiciones no aceptados";
+"not_userpass_invalid" = "Usuario o contraseña invalida";
+"not_misconfiguration_invalid" = "Mala configuración de la cuenta del usuario";
+"not_userchange_invalid" = "Usuario debe de cambiar contraseña";
+"not_useraccount_disabled" = "Cuenta desactivada, por favor contacte al administrador para que habilite la cuenta";
+"not_code_invalid" = "Código inválido";
+"not_service" = "Servicio ejecutado exitosamente.";
+"not_service_error" = "Error al ejecutar el servicio";
+"not_service_init" = "Iniciando servicio";
+"not_service_config" = "Error en la configuración";
+"not_data_valid" = "Los datos son correctos";
+"not_data_invalid" = "Los datos son incorrectos";
+"not_reset_passwordinvalid" = "No se pudo resetear la contraseña";
+"not_template_invalid" = "Las plantillas no se han actualizado";
+"not_variables_invalid" = "Las variables no se han actualizado";
+"not_verifyformats_invalid" = "Los formatos no se han actualizado";
+"not_date_empty" = "Es necesario seleccionar una fecha";
+"not_date_fail" = "La FECHA no cumple con el formato correcto";
+
+// MARK: - LOCAL NOTIFICATIONS lclnot
+"lclnot_title" = "Digipro Notificación";
+"lclnot_subtitle" = "Formatos por enviar";
+"lclnot_message" = "Tienes formatos pendientes por enviar al servidor";
+
+// MARK: ------------
+// MARK: APIManager apimng
+"apimng_log_init" = "%@ init.\r\n";
+
+"apimng_log_formats" = "%@ formato(s) enviados.\r\n";
+"apimng_log_noformats" = "No hay formato(s) por enviar.";
+"apimng_log_errorFormats" = "Hubo un error al enviar los formatos, favor de intentarlo de nuevo";
+"apimng_log_attachments" = "%@ anexo(s) enviados.\r\n";
+"apimng_log_noattachments" = "No hay anexo(s) por enviar.";
+"apimng_log_errorattachments" = "Hubo un error al enviar los anexos, favor de intentarlo de nuevo";
+"apimng_log_templateupdate" = "Las plantillas están actualizadas.";
+"apimng_log_datasaved" = "Archivo salvado";
+"apimng_log_nofiletask" = "No se encontró el archivo";
+"apimng_log_notaskfound" = "No hay tareas disponibles";
+"apimng_log_notaskassigned" = "No se asignó la tarea";
+
+"apimng_log_nodata" = "No hay información o internet limitado.\r\n";
+"apimng_log_nofile" = "No se encontró el archivo.\r\n";
+"apimng_log_preference" = "No hay datos guardados en las preferencias.\r\n";
+"apimng_log_timeout" = "Se agotó el tiempo de espera, el servidor tardó mucho en procesar la solicitud.\r\n";
+"apimng_log_nodata" = "El servidor no ha enviado información.\r\n";

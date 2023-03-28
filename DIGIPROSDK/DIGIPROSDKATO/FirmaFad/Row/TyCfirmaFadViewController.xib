@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TyCfirmaFadViewController" customModule="DIGIPROSDKATO" customModuleProvider="target">
+            <connections>
+                <outlet property="acceptButton" destination="7Qa-Dn-LHH" id="yPx-Tt-IT4"/>
+                <outlet property="cancelButton" destination="SNK-3H-nX1" id="Ap8-kh-qvU"/>
+                <outlet property="checkImage" destination="q0C-eE-b2x" id="tcQ-xg-X2C"/>
+                <outlet property="tycTextView" destination="7Ur-mY-EgJ" id="MF2-Eb-31b"/>
+                <outlet property="tycView" destination="Wza-uS-4Ha" id="cWk-Ya-UX5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wza-uS-4Ha">
+                    <rect key="frame" x="20" y="295" width="374" height="283"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Términos y condiciones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1j-eM-Em7">
+                            <rect key="frame" x="23" y="8" width="316" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="316" id="PAC-TB-ZFp"/>
+                                <constraint firstAttribute="height" constant="24" id="tE2-nv-xMd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7Ur-mY-EgJ">
+                            <rect key="frame" x="23" y="37" width="327" height="128"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="128" id="4aO-TZ-il1"/>
+                                <constraint firstAttribute="width" constant="327" id="bfq-NV-VcB"/>
+                            </constraints>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qa-Dn-LHH">
+                            <rect key="frame" x="56" y="184" width="294" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="294" id="aS7-HD-awC"/>
+                                <constraint firstAttribute="height" constant="30" id="mhx-gm-b0V"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                            <state key="normal" title="He leido y acepto los términos descritos">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="acceptAction:" destination="-1" eventType="touchUpInside" id="DRQ-8Z-ceM"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_uncheck.png" translatesAutoresizingMaskIntoConstraints="NO" id="q0C-eE-b2x">
+                            <rect key="frame" x="32" y="187" width="16" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="16" id="2Nb-2L-D1L"/>
+                                <constraint firstAttribute="height" constant="25" id="acM-fJ-SEb"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNK-3H-nX1">
+                            <rect key="frame" x="34.5" y="236" width="305" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="305" id="P5a-hu-tbB"/>
+                                <constraint firstAttribute="height" constant="30" id="m9k-Bz-x9l"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                            <state key="normal" title="CANCELAR">
+                                <color key="titleColor" red="0.78039215689999997" green="0.066666666669999999" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelAction:" destination="-1" eventType="touchUpInside" id="JHS-89-vLY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="7Ur-mY-EgJ" firstAttribute="top" secondItem="V1j-eM-Em7" secondAttribute="bottom" constant="5" id="2dQ-uc-asp"/>
+                        <constraint firstItem="V1j-eM-Em7" firstAttribute="top" secondItem="Wza-uS-4Ha" secondAttribute="top" constant="8" id="Kz1-wi-tQl"/>
+                        <constraint firstItem="SNK-3H-nX1" firstAttribute="centerX" secondItem="Wza-uS-4Ha" secondAttribute="centerX" id="MBt-mr-nFU"/>
+                        <constraint firstItem="V1j-eM-Em7" firstAttribute="leading" secondItem="Wza-uS-4Ha" secondAttribute="leading" constant="23" id="S0s-iq-Sa4"/>
+                        <constraint firstAttribute="width" constant="374" id="W0Z-SM-Pva"/>
+                        <constraint firstItem="7Ur-mY-EgJ" firstAttribute="leading" secondItem="V1j-eM-Em7" secondAttribute="leading" id="ZNm-bv-Py9"/>
+                        <constraint firstItem="q0C-eE-b2x" firstAttribute="leading" secondItem="7Ur-mY-EgJ" secondAttribute="leading" constant="9" id="b4l-hF-QzU"/>
+                        <constraint firstAttribute="bottom" secondItem="SNK-3H-nX1" secondAttribute="bottom" constant="17" id="gbf-Re-EQl"/>
+                        <constraint firstItem="7Qa-Dn-LHH" firstAttribute="leading" secondItem="q0C-eE-b2x" secondAttribute="trailing" constant="8" id="nGs-Ac-05W"/>
+                        <constraint firstAttribute="height" constant="283" id="qXj-KQ-OvZ"/>
+                        <constraint firstItem="q0C-eE-b2x" firstAttribute="top" secondItem="7Ur-mY-EgJ" secondAttribute="bottom" constant="22" id="qpN-sZ-nYZ"/>
+                        <constraint firstItem="7Qa-Dn-LHH" firstAttribute="top" secondItem="7Ur-mY-EgJ" secondAttribute="bottom" constant="19" id="ze1-bO-XXe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Wza-uS-4Ha" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-11.5" id="agB-5t-ut6"/>
+                <constraint firstItem="Wza-uS-4Ha" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mKT-sU-wFt"/>
+            </constraints>
+            <point key="canvasLocation" x="31.884057971014496" y="64.955357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_uncheck.png" width="48" height="48"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

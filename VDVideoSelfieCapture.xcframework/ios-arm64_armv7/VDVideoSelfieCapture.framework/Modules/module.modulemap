@@ -1,0 +1,6 @@
+framework module VDVideoSelfieCapture {
+  umbrella header "VDVideoSelfieCapture.h"
+
+  export *
+  module * { export * }
+}

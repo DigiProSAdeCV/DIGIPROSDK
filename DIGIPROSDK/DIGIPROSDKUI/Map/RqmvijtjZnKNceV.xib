@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UbicacionFormatoViewController" customModule="DIGIPROSDK" customModuleProvider="target">
+            <connections>
+                <outlet property="btnExit" destination="N3y-uT-Dok" id="psh-ms-Dce"/>
+                <outlet property="map" destination="lzQ-gp-Jf8" id="zri-7u-Uae"/>
+                <outlet property="tableview" destination="smm-mv-emJ" id="aFn-zB-dYK"/>
+                <outlet property="titleLabel" destination="Kxs-Ie-7ff" id="Jka-mB-G7H"/>
+                <outlet property="view" destination="iN0-l3-epB" id="eP6-6h-p98"/>
+                <outlet property="vwEffect" destination="hC6-Ef-Kpe" id="GBZ-9j-YOU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxs-Ie-7ff">
+                    <rect key="frame" x="360" y="15" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3y-uT-Dok">
+                    <rect key="frame" x="265" y="627" width="53" height="0.0"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Salir"/>
+                    <connections>
+                        <action selector="backAction:" destination="-1" eventType="touchUpInside" id="lSK-no-CKn"/>
+                    </connections>
+                </button>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hC6-Ef-Kpe">
+                    <rect key="frame" x="0.0" y="40" width="375" height="567"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="GdL-VP-cPZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lzQ-gp-Jf8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="340"/>
+                            </mapView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="smm-mv-emJ">
+                                <rect key="frame" x="0.0" y="340" width="375" height="177"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-1" id="Mn0-kn-Zyi"/>
+                                    <outlet property="delegate" destination="-1" id="drK-DY-aYb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="lzQ-gp-Jf8" firstAttribute="leading" secondItem="GdL-VP-cPZ" secondAttribute="leading" id="1QN-8g-r19"/>
+                            <constraint firstItem="lzQ-gp-Jf8" firstAttribute="height" secondItem="GdL-VP-cPZ" secondAttribute="height" multiplier="0.6" id="22R-ea-MS8"/>
+                            <constraint firstItem="smm-mv-emJ" firstAttribute="leading" secondItem="lzQ-gp-Jf8" secondAttribute="leading" id="SgJ-tY-pY9"/>
+                            <constraint firstItem="lzQ-gp-Jf8" firstAttribute="width" secondItem="GdL-VP-cPZ" secondAttribute="width" id="lE3-HJ-d9C"/>
+                            <constraint firstItem="smm-mv-emJ" firstAttribute="top" secondItem="lzQ-gp-Jf8" secondAttribute="bottom" id="moy-7u-hqZ"/>
+                            <constraint firstItem="smm-mv-emJ" firstAttribute="width" secondItem="GdL-VP-cPZ" secondAttribute="width" id="nLQ-PD-whG"/>
+                            <constraint firstItem="smm-mv-emJ" firstAttribute="height" secondItem="GdL-VP-cPZ" secondAttribute="height" multiplier="0.4" constant="-50" id="ogh-zx-dqd"/>
+                            <constraint firstItem="lzQ-gp-Jf8" firstAttribute="top" secondItem="GdL-VP-cPZ" secondAttribute="top" id="zEX-Tf-MTr"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="hC6-Ef-Kpe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="25J-vt-awG"/>
+                <constraint firstItem="hC6-Ef-Kpe" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" constant="-100" id="2ep-03-6BI"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Kxs-Ie-7ff" secondAttribute="trailing" constant="15" id="6nu-Hx-LPB"/>
+                <constraint firstItem="hC6-Ef-Kpe" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="7GT-s9-rph"/>
+                <constraint firstItem="N3y-uT-Dok" firstAttribute="leading" secondItem="hC6-Ef-Kpe" secondAttribute="trailing" constant="-110" id="EJh-gF-JyK"/>
+                <constraint firstItem="N3y-uT-Dok" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-40" id="JCK-TI-Eui"/>
+                <constraint firstItem="hC6-Ef-Kpe" firstAttribute="bottom" secondItem="N3y-uT-Dok" secondAttribute="top" constant="-20" id="PJM-vN-T0o"/>
+                <constraint firstItem="hC6-Ef-Kpe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="RFd-vX-jMh"/>
+                <constraint firstItem="Kxs-Ie-7ff" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="tap-AC-eE9"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TablaPlantillaViewController" customModule="DIGIPROSDK" customModuleProvider="target">
+            <connections>
+                <outlet property="btnActualizar" destination="Nk3-cw-KL1" id="3iR-86-wLq"/>
+                <outlet property="btnAgregar" destination="tlI-DY-mrT" id="Sbo-kc-HyV"/>
+                <outlet property="btnAgregarYcerrar" destination="IkZ-x0-hdr" id="8lv-Vd-LFb"/>
+                <outlet property="btnCerrar" destination="6G9-66-n3T" id="s2t-Dn-Pkr"/>
+                <outlet property="btnLimpiar" destination="Gln-1P-nw2" id="P7u-zI-4tq"/>
+                <outlet property="tableView" destination="g6X-dm-uUJ" id="wCP-m5-a9n"/>
+                <outlet property="view" destination="iN0-l3-epB" id="nUn-fU-JWN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="g6X-dm-uUJ">
+                    <rect key="frame" x="0.0" y="84" width="414" height="718"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="wgB-Ub-evl"/>
+                        <outlet property="delegate" destination="-1" id="0cx-tt-aY1"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xCg-9u-ClE">
+                    <rect key="frame" x="0.0" y="800" width="414" height="62"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlI-DY-mrT">
+                            <rect key="frame" x="20" y="20" width="55" height="34"/>
+                            <color key="backgroundColor" red="0.086274509799999996" green="0.69019607839999997" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="HSy-c0-bZF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                            <state key="normal" title="Agregar">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="agregarAction:" destination="-1" eventType="touchUpInside" id="2Jr-oQ-jKR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gln-1P-nw2">
+                            <rect key="frame" x="85" y="20" width="52" height="34"/>
+                            <color key="backgroundColor" red="1" green="0.76114494749983663" blue="0.12485467685813678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="U5A-AJ-Ei3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                            <state key="normal" title="Limpiar">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="limpiarAction:" destination="-1" eventType="touchUpInside" id="O4V-Vd-N7u"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkZ-x0-hdr">
+                            <rect key="frame" x="291" y="20" width="103" height="34"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="TOF-CO-FZk"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                            <state key="normal" title="Agregar y cerrar">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="agregarCerrarAction:" destination="-1" eventType="touchUpInside" id="lwK-W5-kDH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="IkZ-x0-hdr" secondAttribute="trailing" constant="20" id="LnP-kQ-J3y"/>
+                        <constraint firstItem="Gln-1P-nw2" firstAttribute="leading" secondItem="tlI-DY-mrT" secondAttribute="trailing" constant="10" id="ZS5-Kf-aO8"/>
+                        <constraint firstAttribute="height" constant="62" id="eL7-bb-Lw9"/>
+                        <constraint firstAttribute="bottom" secondItem="IkZ-x0-hdr" secondAttribute="bottom" constant="8" id="hU4-Si-KfG"/>
+                        <constraint firstAttribute="bottom" secondItem="tlI-DY-mrT" secondAttribute="bottom" constant="8" id="ogK-xc-UFb"/>
+                        <constraint firstItem="tlI-DY-mrT" firstAttribute="leading" secondItem="xCg-9u-ClE" secondAttribute="leading" constant="20" id="rmw-LF-EfO"/>
+                        <constraint firstAttribute="bottom" secondItem="Gln-1P-nw2" secondAttribute="bottom" constant="8" id="v1M-qb-LBU"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6G9-66-n3T">
+                    <rect key="frame" x="374" y="44" width="40" height="36"/>
+                    <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="Gcf-tB-H2w"/>
+                        <constraint firstAttribute="width" constant="40" id="IcI-7e-7mI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" image="baseline_clear_black_48pt">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="closeBtnAction:" destination="-1" eventType="touchUpInside" id="NIu-YM-tRn"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nk3-cw-KL1">
+                    <rect key="frame" x="16" y="44" width="91" height="34"/>
+                    <color key="backgroundColor" red="0.2156862745" green="0.30588235289999999" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="91" id="E5k-WZ-Vqw"/>
+                        <constraint firstAttribute="height" constant="34" id="YO9-H9-cUO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Actualizar">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="updateDataAction:" destination="-1" eventType="touchUpInside" id="aPv-fo-BQk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g6X-dm-uUJ" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="5Hk-aJ-QGZ"/>
+                <constraint firstItem="g6X-dm-uUJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="G8Y-6U-YcY"/>
+                <constraint firstItem="g6X-dm-uUJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="NsA-kd-gIo"/>
+                <constraint firstItem="xCg-9u-ClE" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Opt-hg-4ra"/>
+                <constraint firstItem="Nk3-cw-KL1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="WVh-ug-unv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6G9-66-n3T" secondAttribute="trailing" id="Yke-L3-4ch"/>
+                <constraint firstItem="xCg-9u-ClE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="caD-NU-EFv"/>
+                <constraint firstItem="xCg-9u-ClE" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="iRL-VM-pEv"/>
+                <constraint firstItem="g6X-dm-uUJ" firstAttribute="height" secondItem="vUN-kp-3ea" secondAttribute="height" constant="-100" id="jnQ-ur-9wF"/>
+                <constraint firstItem="Nk3-cw-KL1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="sDM-yK-Utr"/>
+                <constraint firstItem="6G9-66-n3T" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="sK8-wO-tTZ"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="154.27286356821591"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="baseline_clear_black_48pt" width="48" height="48"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

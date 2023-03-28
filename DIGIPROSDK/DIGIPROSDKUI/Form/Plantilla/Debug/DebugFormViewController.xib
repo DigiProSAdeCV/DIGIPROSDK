@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DebugFormViewController" customModule="DIGIPROSDKUI" customModuleProvider="target">
+            <connections>
+                <outlet property="searchbar" destination="B2J-yo-jZ4" id="S3F-WI-v37"/>
+                <outlet property="tableview" destination="ftk-da-xVU" id="tQ6-YB-qo7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="PnN-nx-TYH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="B2J-yo-jZ4">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="K1I-hi-Ghg"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ftk-da-xVU">
+                    <rect key="frame" x="0.0" y="100" width="414" height="762"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="LBv-gI-aF3"/>
+                        <outlet property="delegate" destination="-1" id="hmY-Se-Yue"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="B2J-yo-jZ4" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="6KM-s5-bQP"/>
+                <constraint firstItem="ftk-da-xVU" firstAttribute="top" secondItem="B2J-yo-jZ4" secondAttribute="bottom" id="7Xs-gC-3qL"/>
+                <constraint firstItem="ftk-da-xVU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="HXd-mG-zCE"/>
+                <constraint firstItem="ftk-da-xVU" firstAttribute="width" secondItem="vUN-kp-3ea" secondAttribute="width" id="U2d-vg-nKZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ftk-da-xVU" secondAttribute="bottom" id="gFp-0D-s5s"/>
+                <constraint firstItem="B2J-yo-jZ4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="u85-RB-XRS"/>
+                <constraint firstItem="B2J-yo-jZ4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="xNF-Qs-7hm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="139" y="108"/>
+        </view>
+    </objects>
+</document>
