@@ -1,0 +1,22 @@
+{
+  "name": "DIGIPROSDKUI",
+  "version": "0.1.0",
+  "summary": "A short description of DIGIPROSDKUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Edgar Pastor Rico Orozco/DIGIPROSDKUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Edgar Pastor Rico Orozco": "edgarr@hotmail.com.mx"
+  },
+  "source": {
+    "git": "https://github.com/Edgar Pastor Rico Orozco/DIGIPROSDKUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DIGIPROSDKUI/Classes/**/*"
+}

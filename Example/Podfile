@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DIGIPROSDKUI_Example' do
+  pod 'DIGIPROSDKUI', :path => '../'
+
+  target 'DIGIPROSDKUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

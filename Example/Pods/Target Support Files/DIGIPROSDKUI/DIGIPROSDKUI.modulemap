@@ -1,0 +1,6 @@
+framework module DIGIPROSDKUI {
+  umbrella header "DIGIPROSDKUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

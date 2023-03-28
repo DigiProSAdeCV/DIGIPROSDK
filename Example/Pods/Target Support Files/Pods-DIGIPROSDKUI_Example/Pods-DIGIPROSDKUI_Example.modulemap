@@ -1,0 +1,6 @@
+framework module Pods_DIGIPROSDKUI_Example {
+  umbrella header "Pods-DIGIPROSDKUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

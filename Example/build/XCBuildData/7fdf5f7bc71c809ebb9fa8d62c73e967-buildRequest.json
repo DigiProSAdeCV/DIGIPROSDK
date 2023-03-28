@@ -1,0 +1,51 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e987e2ca197f632109ba11f24359b037a61"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9813163dc4bc165174b03680a926abf6f5"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9842d4634f454342d5ff324665112ceb50"
+    }
+  ],
+  "containerPath" : "/Users/EdgarPastorRicoOrozco/Desktop/carpeta sin título/FormatoElectronico.OnTheGo.App.IOS/DIGIPROSDK/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/EdgarPastorRicoOrozco/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/EdgarPastorRicoOrozco/Library/Developer/Xcode/DerivedData/Pods-bqdzkcbwlhwasqfwiuqgrgfelcby/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/EdgarPastorRicoOrozco/Library/Developer/Xcode/DerivedData/Pods-bqdzkcbwlhwasqfwiuqgrgfelcby/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

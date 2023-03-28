@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+DIGIPROSDKUI in Pods, no dependencies
+Pods-DIGIPROSDKUI_Example in Pods, depends on:
+DIGIPROSDKUI in Pods (explicit)
+Pods-DIGIPROSDKUI_Tests in Pods, depends on:
+Pods-DIGIPROSDKUI_Example in Pods (explicit)
